@@ -11,7 +11,7 @@ You are more than welcome to contribute by suggesting changes to make the list m
 - [Programmatic Reinforcement Learning](#policy)
 ## <a name="synthesis"></a>Program Synthesis
 The goal of program synthesis is to construct a human-readable program that satisﬁes task specifications represented as input/output pairs, demonstrations, natural language instructions, etc. Recent works also explore representing images and 3D shapes using programs, allowing applications such as editing, scene understanding, analogy-making, reverse engineering, etc.
-- 31 papers
+- 33 papers
 
 | Paper Title | Conference | Year | Link |
 | ---- | ---- | ---- | ---- |
@@ -44,11 +44,13 @@ The goal of program synthesis is to construct a human-readable program that sati
 |Neural Program Synthesis with a Differentiable Fixer|arXiv|2020|[link](https://arxiv.org/abs/2006.10924)|
 |Learning to Infer Shape Programs Using Self Training|arXiv|2020|[link](https://arxiv.org/abs/2011.13045)|
 |SpreadsheetCoder: Formula Prediction from Semi-structured Context|ICML|2021|[link](https://arxiv.org/abs/2106.15339)|
+|Latent Programmer: Discrete Latent Codes for Program Synthesis|ICML|2021|[link](https://arxiv.org/abs/2012.00377)|
 |Latent Execution for Neural Program Synthesis Beyond Domain-Specific Languages|arXiv|2021|[link](https://arxiv.org/abs/2107.00101)|
 |Learning to Combine Per-Example Solutions for Neural Program Synthesis|arXiv|2021|[link](https://arxiv.org/abs/2106.07175)|
+|Evaluating Large Language Models Trained on Code|arXiv|2021|[link](https://arxiv.org/abs/2107.03374)|
 ## <a name="induction"></a>Program Induction
 Unlike program synthesis works that are designed to explicitly synthesize programs, program induction methods aim to implicitly induce the underlying programs to mimic the desired behaviors demonstrated in task specifications (e.g. execution traces) to solve algorithmic tasks such as digit addition and string transformations and achieve better generalization.
-- 18 papers
+- 19 papers
 
 | Paper Title | Conference | Year | Link |
 | ---- | ---- | ---- | ---- |
@@ -70,12 +72,15 @@ Unlike program synthesis works that are designed to explicitly synthesize progra
 |Learning Algorithmic Solutions to Symbolic Planning Tasks with a Neural Computer Architecture|arXiv|2019|[link](https://arxiv.org/abs/1911.00926)|
 |DreamCoder: Growing generalizable, interpretable knowledge with wake-sleep Bayesian program learning|arXiv|2020|[link](https://arxiv.org/abs/2006.08381)|
 |Strong Generalization and Efficiency in Neural Programs|arXiv|2020|[link](https://arxiv.org/abs/2007.03629)|
+|A large-scale benchmark for few-shot program induction and synthesis|ICML|2021|[link](http://proceedings.mlr.press/v139/alet21a.html)|
 ## <a name="execution"></a>Program Execution
 Program execution works explore domains such as utilizing programs as instructions to guide reinforcement learning agents and improving program synthesis performance by executing partially generated programs.
-- 9 papers
+- 11 papers
 
 | Paper Title | Conference | Year | Link |
 | ---- | ---- | ---- | ---- |
+|Modular Multitask Reinforcement Learning with Policy Sketches|ICML|2017|[link](https://arxiv.org/abs/1611.01796)|
+|Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning|ICML|2017|[link](https://arxiv.org/abs/1706.05064)|
 |Programmable Agents|NIPS|2017|[link](https://arxiv.org/abs/1706.06383)|
 |Write, Execute, Assess Program Synthesis with a REPL|NeurIPS|2019|[link](https://arxiv.org/abs/1906.04604)|
 |A Composable Specification Language for Reinforcement Learning Tasks|NeurIPS|2019|[link](https://arxiv.org/abs/2008.09293)|
