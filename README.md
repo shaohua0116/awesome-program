@@ -65,6 +65,7 @@ Unlike program synthesis works that are designed to explicitly synthesize progra
 |Making Neural Programming Architectures Generalize via Recursion|ICLR|2017|[link](https://openreview.net/forum?id=BkbY4psgg)|
 |Neural Program Meta-Induction|NIPS|2017|[link](https://arxiv.org/abs/1710.04157)|
 |Improving the Universality and Learnability of Neural Programmer-Interpreters with Combinator Abstraction |ICLR|2018|[link](https://openreview.net/forum?id=rJlMAAeC-)|
+|Using Program Induction to Interpret Transition System Dynamics|IJCAI|2017|[link](https://www.pure.ed.ac.uk/ws/portalfiles/portal/38870431/0e1a78c61471fa77a2068fddbf5040997c612eb2.pdf)|
 |Neural Task Programming: Learning to Generalize Across Hierarchical Tasks|ICRA|2018|[link](https://arxiv.org/abs/1710.01813)|
 |Memory Augmented Policy Optimization for Program Synthesis with Generalization|NeurIPS|2018|[link](https://arxiv.org/abs/1807.02322)|
 |Neural Task Graphs: Generalizing to Unseen Tasks from a Single Video Demonstration|CVPR|2019|[link](https://arxiv.org/abs/1807.03480)|
