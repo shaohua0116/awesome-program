@@ -11,13 +11,13 @@ You are more than welcome to contribute by suggesting changes to make the list m
 - [Programmatic Reinforcement Learning](#policy)
 ## <a name="synthesis"></a>Program Synthesis
 The goal of program synthesis is to construct a human-readable program that satisﬁes task specifications represented as input/output pairs, demonstrations, natural language instructions, etc. Recent works also explore representing images and 3D shapes using programs, allowing applications such as editing, scene understanding, analogy-making, reverse engineering, etc.
-- 33 papers
+- 36 papers
 
 | Paper Title | Conference | Year | Link |
 | ---- | ---- | ---- | ---- |
 |Latent Attention For If-Then Program Synthesis|NIPS|2016|[link](https://proceedings.neurips.cc/paper/2016/hash/716e1b8c6cd17b771da77391355749f3-Abstract.html)|
-|Learning Shape Abstractions by Assembling Volumetric Primitives|CVPR|2017|[link](https://arxiv.org/abs/1612.00404)|
 |Neural Scene De-rendering|CVPR|2017|[link](http://nsd.csail.mit.edu/)|
+|Learning Shape Abstractions by Assembling Volumetric Primitives|CVPR|2017|[link](https://arxiv.org/abs/1612.00404)|
 |DeepCoder: Learning to Write Programs|ICLR|2017|[link](https://arxiv.org/abs/1611.01989)|
 |Neuro-Symbolic Program Synthesis|ICLR|2017|[link](https://openreview.net/forum?id=rJ0JwFcex)|
 |RobustFill: Neural Program Learning under Noisy I/O|ICML|2017|[link](https://arxiv.org/abs/1703.07469)|
@@ -47,12 +47,13 @@ The goal of program synthesis is to construct a human-readable program that sati
 |Learning to Infer Shape Programs Using Self Training|arXiv|2020|[link](https://arxiv.org/abs/2011.13045)|
 |SpreadsheetCoder: Formula Prediction from Semi-structured Context|ICML|2021|[link](https://arxiv.org/abs/2106.15339)|
 |Latent Programmer: Discrete Latent Codes for Program Synthesis|ICML|2021|[link](https://arxiv.org/abs/2012.00377)|
+|Leveraging Language to Learn Program Abstractions and Search Heuristics|ICML|2021|[link](https://arxiv.org/abs/2106.11053)|
 |Latent Execution for Neural Program Synthesis Beyond Domain-Specific Languages|arXiv|2021|[link](https://arxiv.org/abs/2107.00101)|
 |Learning to Combine Per-Example Solutions for Neural Program Synthesis|arXiv|2021|[link](https://arxiv.org/abs/2106.07175)|
 |Evaluating Large Language Models Trained on Code|arXiv|2021|[link](https://arxiv.org/abs/2107.03374)|
 ## <a name="induction"></a>Program Induction
 Unlike program synthesis works that are designed to explicitly synthesize programs, program induction methods aim to implicitly induce the underlying programs to mimic the desired behaviors demonstrated in task specifications (e.g. execution traces) to solve algorithmic tasks such as digit addition and string transformations and achieve better generalization.
-- 19 papers
+- 20 papers
 
 | Paper Title | Conference | Year | Link |
 | ---- | ---- | ---- | ---- |
@@ -66,8 +67,8 @@ Unlike program synthesis works that are designed to explicitly synthesize progra
 |Neural Program Lattices|ICLR|2017|[link](https://openreview.net/forum?id=HJjiFK5gx)|
 |Making Neural Programming Architectures Generalize via Recursion|ICLR|2017|[link](https://openreview.net/forum?id=BkbY4psgg)|
 |Neural Program Meta-Induction|NIPS|2017|[link](https://arxiv.org/abs/1710.04157)|
+|Using Program Induction to Interpret Transition System Dynamics|arXiv|2017|[link](https://www.pure.ed.ac.uk/ws/portalfiles/portal/38870431/0e1a78c61471fa77a2068fddbf5040997c612eb2.pdf)|
 |Improving the Universality and Learnability of Neural Programmer-Interpreters with Combinator Abstraction |ICLR|2018|[link](https://openreview.net/forum?id=rJlMAAeC-)|
-|Using Program Induction to Interpret Transition System Dynamics|IJCAI|2017|[link](https://www.pure.ed.ac.uk/ws/portalfiles/portal/38870431/0e1a78c61471fa77a2068fddbf5040997c612eb2.pdf)|
 |Neural Task Programming: Learning to Generalize Across Hierarchical Tasks|ICRA|2018|[link](https://arxiv.org/abs/1710.01813)|
 |Memory Augmented Policy Optimization for Program Synthesis with Generalization|NeurIPS|2018|[link](https://arxiv.org/abs/1807.02322)|
 |Neural Task Graphs: Generalizing to Unseen Tasks from a Single Video Demonstration|CVPR|2019|[link](https://arxiv.org/abs/1807.03480)|
@@ -78,10 +79,11 @@ Unlike program synthesis works that are designed to explicitly synthesize progra
 |A large-scale benchmark for few-shot program induction and synthesis|ICML|2021|[link](http://proceedings.mlr.press/v139/alet21a.html)|
 ## <a name="execution"></a>Program Execution
 Program execution works explore domains such as utilizing programs as instructions to guide reinforcement learning agents and improving program synthesis performance by executing partially generated programs.
-- 11 papers
+- 12 papers
 
 | Paper Title | Conference | Year | Link |
 | ---- | ---- | ---- | ---- |
+|Learning to Execute|arXiv|2014|[link](https://arxiv.org/abs/1410.4615)|
 |Modular Multitask Reinforcement Learning with Policy Sketches|ICML|2017|[link](https://arxiv.org/abs/1611.01796)|
 |Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning|ICML|2017|[link](https://arxiv.org/abs/1706.05064)|
 |Programmable Agents|NIPS|2017|[link](https://arxiv.org/abs/1706.06383)|
