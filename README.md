@@ -23,6 +23,7 @@ The goal of program synthesis is to construct a human-readable program that sati
 |Differentiable Programs with Neural Libraries|ICML|2017|[link](https://arxiv.org/abs/1611.02109)|
 |pix2code: Generating Code from a Graphical User Interface Screenshot|arXiv|2017|[link](https://arxiv.org/abs/1705.07962)|
 |Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning|arXiv|2017|[link](https://arxiv.org/pdf/1709.00103.pdf)|
+|Learning Shape Abstractions by Assembling Volumetric Primitives|CVPR|2017|[link](https://arxiv.org/abs/1612.00404)|
 |CSGNet: Neural Shape Parser for Constructive Solid Geometry|CVPR|2018|[link](https://arxiv.org/abs/1712.08290)|
 |NL2Bash: A Corpus and Semantic Parser for Natural Language Interface to the Linux Operating System|ELRA|2018|[link](https://www.aclweb.org/anthology/L18-1491.pdf)|
 |Leveraging Grammar and Reinforcement Learning for Neural Program Synthesis|ICLR|2018|[link](https://arxiv.org/abs/1805.04276)|
