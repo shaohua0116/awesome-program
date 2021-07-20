@@ -16,6 +16,7 @@ The goal of program synthesis is to construct a human-readable program that sati
 | Paper Title | Conference | Year | Link |
 | ---- | ---- | ---- | ---- |
 |Latent Attention For If-Then Program Synthesis|NIPS|2016|[link](https://proceedings.neurips.cc/paper/2016/hash/716e1b8c6cd17b771da77391355749f3-Abstract.html)|
+|Learning Shape Abstractions by Assembling Volumetric Primitives|CVPR|2017|[link](https://arxiv.org/abs/1612.00404)|
 |Neural Scene De-rendering|CVPR|2017|[link](http://nsd.csail.mit.edu/)|
 |DeepCoder: Learning to Write Programs|ICLR|2017|[link](https://arxiv.org/abs/1611.01989)|
 |Neuro-Symbolic Program Synthesis|ICLR|2017|[link](https://openreview.net/forum?id=rJ0JwFcex)|
@@ -23,7 +24,6 @@ The goal of program synthesis is to construct a human-readable program that sati
 |Differentiable Programs with Neural Libraries|ICML|2017|[link](https://arxiv.org/abs/1611.02109)|
 |pix2code: Generating Code from a Graphical User Interface Screenshot|arXiv|2017|[link](https://arxiv.org/abs/1705.07962)|
 |Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning|arXiv|2017|[link](https://arxiv.org/pdf/1709.00103.pdf)|
-|Learning Shape Abstractions by Assembling Volumetric Primitives|CVPR|2017|[link](https://arxiv.org/abs/1612.00404)|
 |CSGNet: Neural Shape Parser for Constructive Solid Geometry|CVPR|2018|[link](https://arxiv.org/abs/1712.08290)|
 |NL2Bash: A Corpus and Semantic Parser for Natural Language Interface to the Linux Operating System|ELRA|2018|[link](https://www.aclweb.org/anthology/L18-1491.pdf)|
 |Leveraging Grammar and Reinforcement Learning for Neural Program Synthesis|ICLR|2018|[link](https://arxiv.org/abs/1805.04276)|
