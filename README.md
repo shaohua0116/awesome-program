@@ -11,7 +11,7 @@ You are more than welcome to contribute by suggesting changes to make the list m
 - [Programmatic Reinforcement Learning](#policy)
 ## <a name="synthesis"></a>Program Synthesis
 The goal of program synthesis is to construct a human-readable program that satisﬁes task specifications represented as input/output pairs, demonstrations, natural language instructions, etc. Recent works also explore representing images and 3D shapes using programs, allowing applications such as editing, scene understanding, analogy-making, reverse engineering, etc.
-- 36 papers
+- 40 papers
 
 | Paper Title | Conference | Year | Link |
 | ---- | ---- | ---- | ---- |
@@ -39,21 +39,25 @@ The goal of program synthesis is to construct a human-readable program that sati
 |Learning to Describe Scenes with Programs|ICLR|2019|[link](https://openreview.net/forum?id=SyNPk2R9K7)|
 |Learning to Infer and Execute 3D Shape Programs|ICLR|2019|[link](https://openreview.net/forum?id=rylNH20qFQ)|
 |Synthetic Datasets for Neural Program Synthesis|ICLR|2019|[link](https://openreview.net/forum?id=ryeOSnAqYm)|
+|Learning to Infer Program Sketches|ICML|2019|[link](https://arxiv.org/abs/1902.06349)|
+|Write, Execute, Assess Program Synthesis with a REPL|NeurIPS|2019|[link](https://arxiv.org/abs/1906.04604)|
 |Ain’t Nobody Got Time For Coding: Structure-Aware Program Synthesis From Natural Language|arXiv|2019|[link](https://arxiv.org/pdf/1810.09717.pdf)|
 |Learning Compositional Rules via Neural Program Synthesis|NeurIPS|2020|[link](https://arxiv.org/abs/2003.05562)|
 |Synthesize, Execute and Debug: Learning to Repair for Neural Program Synthesis|NeurIPS|2020|[link](https://arxiv.org/abs/2007.08095)|
 |PLANS: Neuro-Symbolic Program Learning from Videos|NeurIPS|2020|[link](https://proceedings.neurips.cc/paper/2020/hash/fe131d7f5a6b38b23cc967316c13dae2-Abstract.html)|
 |Neural Program Synthesis with a Differentiable Fixer|arXiv|2020|[link](https://arxiv.org/abs/2006.10924)|
 |Learning to Infer Shape Programs Using Self Training|arXiv|2020|[link](https://arxiv.org/abs/2011.13045)|
+|Representing Partial Programs with Blended Abstract Semantics|ICLR|2021|[link](https://arxiv.org/abs/2012.12964)|
 |SpreadsheetCoder: Formula Prediction from Semi-structured Context|ICML|2021|[link](https://arxiv.org/abs/2106.15339)|
 |Latent Programmer: Discrete Latent Codes for Program Synthesis|ICML|2021|[link](https://arxiv.org/abs/2012.00377)|
 |Leveraging Language to Learn Program Abstractions and Search Heuristics|ICML|2021|[link](https://arxiv.org/abs/2106.11053)|
+|A large-scale benchmark for few-shot program induction and synthesis|ICML|2021|[link](http://proceedings.mlr.press/v139/alet21a/alet21a.pdf)|
 |Latent Execution for Neural Program Synthesis Beyond Domain-Specific Languages|arXiv|2021|[link](https://arxiv.org/abs/2107.00101)|
 |Learning to Combine Per-Example Solutions for Neural Program Synthesis|arXiv|2021|[link](https://arxiv.org/abs/2106.07175)|
 |Evaluating Large Language Models Trained on Code|arXiv|2021|[link](https://arxiv.org/abs/2107.03374)|
 ## <a name="induction"></a>Program Induction
 Unlike program synthesis works that are designed to explicitly synthesize programs, program induction methods aim to implicitly induce the underlying programs to mimic the desired behaviors demonstrated in task specifications (e.g. execution traces) to solve algorithmic tasks such as digit addition and string transformations and achieve better generalization.
-- 20 papers
+- 21 papers
 
 | Paper Title | Conference | Year | Link |
 | ---- | ---- | ---- | ---- |
@@ -74,12 +78,13 @@ Unlike program synthesis works that are designed to explicitly synthesize progra
 |Neural Task Graphs: Generalizing to Unseen Tasks from a Single Video Demonstration|CVPR|2019|[link](https://arxiv.org/abs/1807.03480)|
 |Learning Compositional Neural Programs with Recursive Tree Search and Planning|NeurIPS|2019|[link](https://arxiv.org/abs/1905.12941)|
 |Learning Algorithmic Solutions to Symbolic Planning Tasks with a Neural Computer Architecture|arXiv|2019|[link](https://arxiv.org/abs/1911.00926)|
+|Neural Execution Engines- Learning to Execute Subroutines|NeurIPS|2020|[link](https://arxiv.org/abs/2006.08084)|
 |DreamCoder: Growing generalizable, interpretable knowledge with wake-sleep Bayesian program learning|arXiv|2020|[link](https://arxiv.org/abs/2006.08381)|
 |Strong Generalization and Efficiency in Neural Programs|arXiv|2020|[link](https://arxiv.org/abs/2007.03629)|
 |A large-scale benchmark for few-shot program induction and synthesis|ICML|2021|[link](http://proceedings.mlr.press/v139/alet21a.html)|
 ## <a name="execution"></a>Program Execution
 Program execution works explore domains such as utilizing programs as instructions to guide reinforcement learning agents and improving program synthesis performance by executing partially generated programs.
-- 12 papers
+- 10 papers
 
 | Paper Title | Conference | Year | Link |
 | ---- | ---- | ---- | ---- |
@@ -87,10 +92,8 @@ Program execution works explore domains such as utilizing programs as instructio
 |Modular Multitask Reinforcement Learning with Policy Sketches|ICML|2017|[link](https://arxiv.org/abs/1611.01796)|
 |Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning|ICML|2017|[link](https://arxiv.org/abs/1706.05064)|
 |Programmable Agents|NIPS|2017|[link](https://arxiv.org/abs/1706.06383)|
-|Write, Execute, Assess Program Synthesis with a REPL|NeurIPS|2019|[link](https://arxiv.org/abs/1906.04604)|
 |A Composable Specification Language for Reinforcement Learning Tasks|NeurIPS|2019|[link](https://arxiv.org/abs/2008.09293)|
 |Program Guided Agent|ICLR|2020|[link](https://openreview.net/forum?id=BkxUvnEYDH)|
-|Neural Execution Engines- Learning to Execute Subroutines|NeurIPS|2020|[link](https://arxiv.org/abs/2006.08084)|
 |Learning to Execute Programs with Instruction Pointer Attention Graph Neural Networks|NeurIPS|2020|[link](https://arxiv.org/abs/2010.12621)|
 |Reinforcement Learning of Implicit and Explicit Control Flow in Instructions|ICML|2021|[link](https://arxiv.org/abs/2102.13195)|
 |Latent Execution for Neural Program Synthesis Beyond Domain-Specific Languages|arXiv|2021|[link](https://arxiv.org/abs/2107.00101)|
