@@ -11,7 +11,7 @@ You are more than welcome to contribute by suggesting changes to make the list m
 - [Programmatic Reinforcement Learning](#policy)
 ## <a name="synthesis"></a>Program Synthesis
 The goal of program synthesis is to construct a human-readable program that satisﬁes task specifications represented as input/output pairs, demonstrations, natural language instructions, etc. Recent works also explore representing images and 3D shapes using programs, allowing applications such as editing, scene understanding, analogy-making, reverse engineering, etc.
-- 40 papers
+- 41 papers
 
 | Paper Title | Conference | Year | Link |
 | ---- | ---- | ---- | ---- |
@@ -55,6 +55,7 @@ The goal of program synthesis is to construct a human-readable program that sati
 |Latent Execution for Neural Program Synthesis Beyond Domain-Specific Languages|arXiv|2021|[link](https://arxiv.org/abs/2107.00101)|
 |Learning to Combine Per-Example Solutions for Neural Program Synthesis|arXiv|2021|[link](https://arxiv.org/abs/2106.07175)|
 |Evaluating Large Language Models Trained on Code|arXiv|2021|[link](https://arxiv.org/abs/2107.03374)|
+|Program Synthesis with Large Language Models|arXiv|2021|[link](https://arxiv.org/abs/2108.07732)|
 ## <a name="induction"></a>Program Induction
 Unlike program synthesis works that are designed to explicitly synthesize programs, program induction methods aim to implicitly induce the underlying programs to mimic the desired behaviors demonstrated in task specifications (e.g. execution traces) to solve algorithmic tasks such as digit addition and string transformations and achieve better generalization.
 - 21 papers
