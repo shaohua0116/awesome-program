@@ -136,7 +136,7 @@ To solve tasks described by MDPs, the goal of programmatic reinforcement learnin
 
 Learning to execute programs to fullfill task specifications. The following paper studies how to interprete and execute programs.
 
--3 papers  
+- 3 papers  
 
 | Paper Title                                                  | Conference | Year | Link                                               |
 | ------------------------------------------------------------ | ---------- | ---- | -------------------------------------------------- |
