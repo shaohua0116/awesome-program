@@ -9,7 +9,6 @@ You are more than welcome to contribute by suggesting changes to make the list m
 - [Program Execution](#execution)
 - [Program and Code Repair](#repair)
 - [Programmatic Reinforcement Learning](#policy)
-- [Program-guided Tasks](#tasks)
 ## <a name="synthesis"></a>Program Synthesis
 The goal of program synthesis is to construct a human-readable program that satisﬁes task specifications represented as input/output pairs, demonstrations, natural language instructions, etc. Recent works also explore representing images and 3D shapes using programs, allowing applications such as editing, scene understanding, analogy-making, reverse engineering, etc.
 - 41 papers
@@ -86,7 +85,7 @@ Unlike program synthesis works that are designed to explicitly synthesize progra
 |A large-scale benchmark for few-shot program induction and synthesis|ICML|2021|[link](http://proceedings.mlr.press/v139/alet21a.html)|
 ## <a name="execution"></a>Program Execution
 Program execution works explore domains such as utilizing programs as instructions to guide reinforcement learning agents and improving program synthesis performance by executing partially generated programs.
-- 10 papers
+- 11 papers
 
 | Paper Title | Conference | Year | Link |
 | ---- | ---- | ---- | ---- |
@@ -98,6 +97,7 @@ Program execution works explore domains such as utilizing programs as instructio
 |Program Guided Agent|ICLR|2020|[link](https://openreview.net/forum?id=BkxUvnEYDH)|
 |Learning to Execute Programs with Instruction Pointer Attention Graph Neural Networks|NeurIPS|2020|[link](https://arxiv.org/abs/2010.12621)|
 |Reinforcement Learning of Implicit and Explicit Control Flow in Instructions|ICML|2021|[link](https://arxiv.org/abs/2102.13195)|
+|ProTo: Program-Guided Transformer for Program-Guided Tasks        |NeurIPS|2021|[link](https://arxiv.org/abs/2110.00804)|
 |Latent Execution for Neural Program Synthesis Beyond Domain-Specific Languages|arXiv|2021|[link](https://arxiv.org/abs/2107.00101)|
 |Program Synthesis Guided Reinforcement Learning|arXiv|2021|[link](https://arxiv.org/abs/2102.11137)|
 ## <a name="repair"></a>Program and Code Repair
@@ -119,7 +119,7 @@ Program and code repair methods aim to automatically identify bugs in code and p
 |DLFix: Context-based Code Transformation Learning for Automated Program Repair|ICSE|2020|[link](https://dl.acm.org/doi/10.1145/3377811.3380345)|
 ## <a name="policy"></a>Programmatic Reinforcement Learning
 To solve tasks described by MDPs, the goal of programmatic reinforcement learning is to learn programmatic policies that are more structured, verifiable, interpretable, and generalizable. The following papers represent programmatic policies using representations such as decision trees, finite state machines, or programs structured in domain-specific languages.
-- 9 papers
+- 10 papers
 
 | Paper Title | Conference | Year | Link |
 | ---- | ---- | ---- | ---- |
@@ -129,23 +129,11 @@ To solve tasks described by MDPs, the goal of programmatic reinforcement learnin
 |Towards Mixed Optimization for Reinforcement Learning with Program Synthesis|arXiv|2018|[link](https://arxiv.org/abs/1807.00403)|
 |Synthesizing Programmatic Policies that Inductively Generalize|ICLR|2019|[link](https://openreview.net/forum?id=S1l8oANFDH)|
 |Learning Finite State Representations of Recurrent Policy Networks|ICLR|2019|[link](https://openreview.net/forum?id=S1gOpsCctm)|
+|Neural logic reinforcement learning|ICML|2019|[link](http://proceedings.mlr.press/v97/jiang19a.html)|
 |Imitation-Projected Programmatic Reinforcement Learning|NeurIPS|2019|[link](https://arxiv.org/abs/1907.05431)|
 |Discovering symbolic policies with deep reinforcement learning|ICML|2021|[link](http://proceedings.mlr.press/v139/landajuela21a.html)|
-|Learning to Synthesize Programs as Interpretable and Generalizable Policies|arXiv|2021|[link](https://arxiv.org/abs/2108.13643)|
-## <a name="tasks"></a>Program-guided Tasks
-
-Learning to execute programs to fullfill task specifications. The following paper studies how to interprete and execute programs.
-
-- 3 papers  
-
-| Paper Title                                                  | Conference | Year | Link                                               |
-| ------------------------------------------------------------ | ---------- | ---- | -------------------------------------------------- |
-| Program-guided Agent                                         | ICLR       | 2020 | [link](https://openreview.net/forum?id=BkxUvnEYDH) |
-| Learning to execute programs with instruction pointer attention graph neural networks | NeurIPS    | 2020 | [link](https://arxiv.org/abs/2010.12621)           |
-| ProTo: Program-Guided Transformer for Program-Guided Tasks   | NeurIPS    | 2021 | [link](https://arxiv.org/abs/2110.00804)           |
-
+|Learning to Synthesize Programs as Interpretable and Generalizable Policies|NeurIPS|2021|[link](https://arxiv.org/abs/2108.13643)|
 ## <a name="bibtex"></a>Cite this list
-
 ```
 @misc{sun2021programpaperlist,
     author = {Sun, Shao-Hua},
