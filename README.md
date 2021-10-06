@@ -9,6 +9,7 @@ You are more than welcome to contribute by suggesting changes to make the list m
 - [Program Execution](#execution)
 - [Program and Code Repair](#repair)
 - [Programmatic Reinforcement Learning](#policy)
+- [Program-guided Tasks](#tasks)
 ## <a name="synthesis"></a>Program Synthesis
 The goal of program synthesis is to construct a human-readable program that satisﬁes task specifications represented as input/output pairs, demonstrations, natural language instructions, etc. Recent works also explore representing images and 3D shapes using programs, allowing applications such as editing, scene understanding, analogy-making, reverse engineering, etc.
 - 41 papers
@@ -131,7 +132,20 @@ To solve tasks described by MDPs, the goal of programmatic reinforcement learnin
 |Imitation-Projected Programmatic Reinforcement Learning|NeurIPS|2019|[link](https://arxiv.org/abs/1907.05431)|
 |Discovering symbolic policies with deep reinforcement learning|ICML|2021|[link](http://proceedings.mlr.press/v139/landajuela21a.html)|
 |Learning to Synthesize Programs as Interpretable and Generalizable Policies|arXiv|2021|[link](https://arxiv.org/abs/2108.13643)|
+## <a name="tasks"></a>Program-guided Tasks
+
+Learning to execute programs to fullfill task specifications. The following paper studies how to interprete and execute programs.
+
+- 3 papers  
+
+| Paper Title                                                  | Conference | Year | Link                                               |
+| ------------------------------------------------------------ | ---------- | ---- | -------------------------------------------------- |
+| Program-guided Agent                                         | ICLR       | 2020 | [link](https://openreview.net/forum?id=BkxUvnEYDH) |
+| Learning to execute programs with instruction pointer attention graph neural networks | NeurIPS    | 2020 | [link](https://arxiv.org/abs/2010.12621)           |
+| ProTo: Program-Guided Transformer for Program-Guided Tasks   | NeurIPS    | 2021 | [link](https://arxiv.org/abs/2110.00804)           |
+
 ## <a name="bibtex"></a>Cite this list
+
 ```
 @misc{sun2021programpaperlist,
     author = {Sun, Shao-Hua},
